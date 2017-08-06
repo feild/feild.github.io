@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sensor</title>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <!-- importamos la libreria de firebase cliente para javascript -->
+    <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+
+    <!-- Logica de comunicación con firebase  -->
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<!-- Imagenes que se muestran en el fondo  -->
+<div>
+  <img src="img/agriculture1.jpg" class="bg" id="imgagriculture1" style="display:none">
+  <img src="img/agriculture2.jpg" class="bg" id="imgagriculture2" style="display:none">
+  <img src="img/agriculture3.jpg" class="bg" id="imgagriculture3" style="display:none">
+  <img src="img/agriculture4.jpg" class="bg" id="imgagriculture4" style="display:none" >
+</div>
+
+  <!-- Textos que se muestran -->
+  <h1>TEMPERATURE: <span id="temp"></span> ° C</h1>
+  <h1>SOIL MOISTURE: <span id="soil"></h1></span>
+  <h1>PH content: <span id="ph"></span>12.3</h1>
+  <h2>Motor Condition: <span id="dia"></h2></span>
+
+</body>
+</html>
+

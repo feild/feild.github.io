@@ -63,5 +63,18 @@ tr:nth-child(odd)
 	background-color: #005cb7;
 	color: white;
 }
+.container{
+	font-family: arial;
+	font-weight: bold;
+	background-color: #005cb7;
+	color: white;
+	border: 1px solid #000000;
+	width: 340px;
+	padding: 10px;
+	text-align: center;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
 .bgwidth { width: 100%; }
 .bgheight { height: 100%; } 

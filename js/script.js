@@ -68,17 +68,17 @@ JavsScript
         }
 
         else if(valorSensorSoil>0.4){
-          /*console.log("dia Calido");
+          console.log("dia Calido");
           $("#imgagriculture4").siblings().fadeOut(3000);
           $("#imgagriculture4").fadeIn(3000);
-          $("#dia").text("ON");*/
+          $("#dia").text("ON");
         }
 
     }else{
-        /*console.log("Es de noche");
+        console.log("Es de noche");
         $("#imgagriculture4").siblings().fadeOut(3000);
         $("#imgagriculture4").fadeIn(3000);
-        $("#dia").text("OFF");*/
+        $("#dia").text("OFF");
 
     }
  }

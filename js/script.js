@@ -54,31 +54,31 @@ JavsScript
 
         if(valorSensorTemp<17){
 
-          console.log("dia frio");
+          /*console.log("dia frio");
           $("#imgagriculture1").siblings().fadeOut(3000);
           $("#imgagriculture1").fadeIn(3000);
-          $("#dia").text("Dia Frio");
+          $("#dia").text("Dia Frio");*/
 
         }
         else if(valorSensorTemp>17 && valorSensorTemp<=23){
-          console.log("dia fresco");
+          /*console.log("dia fresco");
           $("#imgagriculture2").siblings().fadeOut(3000);
           $("#imgagriculture2").fadeIn(3000)
-          $("#dia").text("Dia Fresco");
+          $("#dia").text("Dia Fresco");*/
         }
 
         else if(valorSensorSoil>0.4){
-          console.log("dia Calido");
+          /*console.log("dia Calido");
           $("#imgagriculture4").siblings().fadeOut(3000);
           $("#imgagriculture4").fadeIn(3000);
-          $("#dia").text("ON");
+          $("#dia").text("ON");*/
         }
 
     }else{
-        console.log("Es de noche");
+        /*console.log("Es de noche");
         $("#imgagriculture4").siblings().fadeOut(3000);
         $("#imgagriculture4").fadeIn(3000);
-        $("#dia").text("OFF");
+        $("#dia").text("OFF");*/
 
     }
  }
